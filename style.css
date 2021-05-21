@@ -3,11 +3,16 @@ form {
 }
 label {
   display: block;
+  font-size: larger;
+  font-weight: 800;
   height: 20px;
 }
 button {
   display: block;
+  background-color: white;
+  border: 1px solid black;
   margin-top: 20px;
+  cursor: pointer;
 }
 input {
   height: 20px;
@@ -15,11 +20,15 @@ input {
 }
 a,
 a:hover {
-  color: black;
+  color: rgb(66, 65, 65);
   text-decoration: none;
 }
 table {
   margin-top: 25px;
+}
+th {
+  font-weight: 800;
+  text-align: left;
 }
 table,
 th,
